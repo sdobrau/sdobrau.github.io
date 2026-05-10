@@ -1,0 +1,4 @@
+baseURL = 'https://sdobrau.github.io/'
+locale = 'en-us'
+theme = "archie"
+title = "Serban Dobrau's blog"

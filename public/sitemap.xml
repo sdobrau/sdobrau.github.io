@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:37251/posts/</loc>
+    <lastmod>2026-05-10T00:08:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:37251/posts/second-post/</loc>
+    <lastmod>2026-05-10T00:08:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:37251/</loc>
+    <lastmod>2026-05-10T00:08:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:37251/posts/hello-world/</loc>
+    <lastmod>2026-05-09T23:58:07+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:37251/categories/</loc>
+  </url><url>
+    <loc>http://localhost:37251/tags/</loc>
+  </url>
+</urlset>

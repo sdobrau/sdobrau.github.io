@@ -1,0 +1,11 @@
+name = "Pico Base"
+license = "MIT"
+licenselink = "https://github.com/owner/repo/LICENSE"
+description = "Foundation to create Themes based on the PicoCSS Framework: picocss.org"
+homepage = "https://github.com/mnordhaus/pico-base"
+tags = [ "blog", "PicoCSS", "Sass", "minimal", "yaml" ]
+features = [ "PicoCSS", "Simple", "Dart", "Sass", "yaml" ]
+
+[author]
+name = "Markus Nordhaus"
+homepage = "https://www.linkedin.com/in/markus-nordhaus/"
