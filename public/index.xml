@@ -6,14 +6,21 @@
     <description>Recent content on Serban Dobrau&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 01:17:39 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 16:54:48 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/posts/hello-world/</link>
-      <pubDate>Sun, 10 May 2026 01:17:39 +0300</pubDate>
-      <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../images/hello.png&#34; alt=&#34;hello&#34;&gt;&lt;/p&gt;</description>
+      <title>Gentoo Ansible playbook</title>
+      <link>http://localhost:1313/posts/gentoo-ansible-playbook/</link>
+      <pubDate>Mon, 11 May 2026 16:54:48 +0300</pubDate>
+      <guid>http://localhost:1313/posts/gentoo-ansible-playbook/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/gentoo-ansible.png&#34; alt=&#34;Gentoo Ansible&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;To ease operations when setting up Gentoo, I&amp;rsquo;ve written an &lt;code&gt;Ansible&lt;/code&gt;&#xA;playbook that installs and configures a Gentoo system, automating away&#xA;around 30m-2h of a manual setup.&lt;/p&gt;&#xA;&lt;p&gt;The repository can be found &lt;a href=&#34;https://github.com/sdobrau/gentoo-ansible&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h1 id=&#34;playrole-structure&#34;&gt;Play/role structure&lt;/h1&gt;&#xA;&lt;p&gt;The play is subdivided into multiple roles, each for a specific stage:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Preparing the disks: This is where partitioning and filesystems are&#xA;prepared.&lt;/li&gt;&#xA;&lt;li&gt;Grabbing the stage file: This is to have a minimal Gentoo system&#xA;functioning for the next steps&lt;/li&gt;&#xA;&lt;li&gt;Installing the base system: Essential functionality is provided&#xA;here.&lt;/li&gt;&#xA;&lt;li&gt;Configuring and installing the kernel&lt;/li&gt;&#xA;&lt;li&gt;Configuring the system: essential services such as &lt;code&gt;dhcpcd&lt;/code&gt; and&#xA;&lt;code&gt;NetworkManager&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Installing more tools and configuring the bootloader&lt;/li&gt;&#xA;&lt;li&gt;Configuring the bootloader&lt;/li&gt;&#xA;&lt;li&gt;Finalising the install&lt;/li&gt;&#xA;&lt;li&gt;Ensures all the correct &lt;code&gt;USE&lt;/code&gt; flags and the &lt;code&gt;world&lt;/code&gt; file is set to&#xA;install all extra packages and set up services&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;It is expected to be a one-off operation to fire and forget after&#xA;setting up SSH and networking. Afterwards only passwords for the root&#xA;and main user need to be manually configured.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Affine Cipher in Go</title>
+      <link>http://localhost:1313/posts/affine-cipher-in-go/</link>
+      <pubDate>Sun, 10 May 2026 18:13:57 +0300</pubDate>
+      <guid>http://localhost:1313/posts/affine-cipher-in-go/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/affine-cipher.png&#34; alt=&#34;Affine cipher&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;As part of the &lt;code&gt;Exercism&lt;/code&gt; Go track I&amp;rsquo;ve written an implementation of&#xA;the &lt;a href=&#34;https://en.wikipedia.org/wiki/Affine_cipher&#34;&gt;Affine cipher&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The installation and usage instructions can be found at my GitHub&#xA;profile &lt;a href=&#34;https://github.com/sdobrau/affinecipher&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Here is an example encrypt and decrypt. Note that the ciphertext is split&#xA;in chunks of 5 for harder cryptanalysis:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;affinecipher&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ go run main.go -a &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; -b &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt; -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello world&amp;#34;&lt;/span&gt; -e&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;armmv tvemo&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;affinecipher&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ go run main.go -a &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt; -b &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt; -s &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;armmv tvemo&amp;#34;&lt;/span&gt; -d&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;helloworld&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;theory&#34;&gt;Theory&lt;/h1&gt;&#xA;&lt;h2 id=&#34;encryption&#34;&gt;Encryption&lt;/h2&gt;&#xA;&lt;p&gt;The encryption function is:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -41,14 +41,65 @@
 				
 				
 				<section class="list-item">
-					<h1 class="title"><a href="/posts/hello-world/">Hello World</a></h1>
+					<h1 class="title"><a href="/posts/gentoo-ansible-playbook/">Gentoo Ansible playbook</a></h1>
+					<time>May 11, 2026</time>
+					<br><div class="description">
+	
+	<p><img src="../../images/gentoo-ansible.png" alt="Gentoo Ansible"></p>
+<h1 id="introduction">Introduction</h1>
+<p>To ease operations when setting up Gentoo, I&rsquo;ve written an <code>Ansible</code>
+playbook that installs and configures a Gentoo system, automating away
+around 30m-2h of a manual setup.</p>
+<p>The repository can be found <a href="https://github.com/sdobrau/gentoo-ansible">here</a>.</p>
+<h1 id="playrole-structure">Play/role structure</h1>
+<p>The play is subdivided into multiple roles, each for a specific stage:</p>
+<ol>
+<li>Preparing the disks: This is where partitioning and filesystems are
+prepared.</li>
+<li>Grabbing the stage file: This is to have a minimal Gentoo system
+functioning for the next steps</li>
+<li>Installing the base system: Essential functionality is provided
+here.</li>
+<li>Configuring and installing the kernel</li>
+<li>Configuring the system: essential services such as <code>dhcpcd</code> and
+<code>NetworkManager</code></li>
+<li>Installing more tools and configuring the bootloader</li>
+<li>Configuring the bootloader</li>
+<li>Finalising the install</li>
+<li>Ensures all the correct <code>USE</code> flags and the <code>world</code> file is set to
+install all extra packages and set up services</li>
+</ol>
+<p>It is expected to be a one-off operation to fire and forget after
+setting up SSH and networking. Afterwards only passwords for the root
+and main user need to be manually configured.</p>&hellip;
+	
+</div>
+					<a class="readmore" href="/posts/gentoo-ansible-playbook/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
+					<h1 class="title"><a href="/posts/affine-cipher-in-go/">Affine Cipher in Go</a></h1>
 					<time>May 10, 2026</time>
 					<br><div class="description">
 	
-	<p><img src="../../images/hello.png" alt="hello"></p>&hellip;
+	<p><img src="../../images/affine-cipher.png" alt="Affine cipher"></p>
+<h1 id="introduction">Introduction</h1>
+<p>As part of the <code>Exercism</code> Go track I&rsquo;ve written an implementation of
+the <a href="https://en.wikipedia.org/wiki/Affine_cipher">Affine cipher</a>.</p>
+<p>The installation and usage instructions can be found at my GitHub
+profile <a href="https://github.com/sdobrau/affinecipher">here</a>.</p>
+<p>Here is an example encrypt and decrypt. Note that the ciphertext is split
+in chunks of 5 for harder cryptanalysis:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">[</span>affinecipher<span style="color:#f92672">]</span>$ go run main.go -a <span style="color:#ae81ff">3</span> -b <span style="color:#ae81ff">5</span> -s <span style="color:#e6db74">&#34;Hello world&#34;</span> -e
+</span></span><span style="display:flex;"><span>armmv tvemo
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>affinecipher<span style="color:#f92672">]</span>$ go run main.go -a <span style="color:#ae81ff">3</span> -b <span style="color:#ae81ff">5</span> -s <span style="color:#e6db74">&#34;armmv tvemo&#34;</span> -d
+</span></span><span style="display:flex;"><span>helloworld
+</span></span></code></pre></div><h1 id="theory">Theory</h1>
+<h2 id="encryption">Encryption</h2>
+<p>The encryption function is:</p>&hellip;
 	
 </div>
-					<a class="readmore" href="/posts/hello-world/">Read more ⟶</a>
+					<a class="readmore" href="/posts/affine-cipher-in-go/">Read more ⟶</a>
 				</section>
 				
 				

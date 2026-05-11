@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Affine Cipher in Go - Serban Dobrau&#39;s blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="
+Introduction
+As part of the Exercism Go track I&rsquo;ve written an implementation of
+the Affine cipher.
+The installation and usage instructions can be found at my GitHub
+profile here.
+Here is an example encrypt and decrypt. Note that the ciphertext is split
+in chunks of 5 for harder cryptanalysis:
+[affinecipher]$ go run main.go -a 3 -b 5 -s &#34;Hello world&#34; -e
+armmv tvemo
+[affinecipher]$ go run main.go -a 3 -b 5 -s &#34;armmv tvemo&#34; -d
+helloworld
+Theory
+Encryption
+The encryption function is:" />
+	<meta property="og:image" content="http://localhost:1313/"/>
+	<meta property="og:url" content="http://localhost:1313/posts/affine-cipher-in-go/">
+  <meta property="og:site_name" content="Serban Dobrau&#39;s blog">
+  <meta property="og:title" content="Affine Cipher in Go">
+  <meta property="og:description" content="Introduction As part of the Exercism Go track I’ve written an implementation of the Affine cipher.
+The installation and usage instructions can be found at my GitHub profile here.
+Here is an example encrypt and decrypt. Note that the ciphertext is split in chunks of 5 for harder cryptanalysis:
+[affinecipher]$ go run main.go -a 3 -b 5 -s &#34;Hello world&#34; -e armmv tvemo [affinecipher]$ go run main.go -a 3 -b 5 -s &#34;armmv tvemo&#34; -d helloworld Theory Encryption The encryption function is:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2026-05-10T18:13:57+03:00">
+    <meta property="article:modified_time" content="2026-05-10T18:13:57+03:00">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Affine Cipher in Go">
+  <meta name="twitter:description" content="Introduction As part of the Exercism Go track I’ve written an implementation of the Affine cipher.
+The installation and usage instructions can be found at my GitHub profile here.
+Here is an example encrypt and decrypt. Note that the ciphertext is split in chunks of 5 for harder cryptanalysis:
+[affinecipher]$ go run main.go -a 3 -b 5 -s &#34;Hello world&#34; -e armmv tvemo [affinecipher]$ go run main.go -a 3 -b 5 -s &#34;armmv tvemo&#34; -d helloworld Theory Encryption The encryption function is:">
+
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.92c7e6f6f5baede55d6238ba492bcbd00e10ca39a6bbdec527692bfc9564a927.css" />
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="http://localhost:1313/">Serban Dobrau&#39;s blog</a>
+	</div>
+	<nav>
+		
+		
+	</nav>
+</header>
+
+<main>
+  <article>
+    <div class="post-container">
+      
+      <div class="post-content">
+        <div class="title">
+          <h1 class="title">Affine Cipher in Go</h1>
+          <div class="meta">Posted on May 10, 2026</div>
+        </div>
+        
+        <section class="body">
+          <p><img src="../../images/affine-cipher.png" alt="Affine cipher"></p>
+<h1 id="introduction">Introduction</h1>
+<p>As part of the <code>Exercism</code> Go track I&rsquo;ve written an implementation of
+the <a href="https://en.wikipedia.org/wiki/Affine_cipher">Affine cipher</a>.</p>
+<p>The installation and usage instructions can be found at my GitHub
+profile <a href="https://github.com/sdobrau/affinecipher">here</a>.</p>
+<p>Here is an example encrypt and decrypt. Note that the ciphertext is split
+in chunks of 5 for harder cryptanalysis:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#f92672">[</span>affinecipher<span style="color:#f92672">]</span>$ go run main.go -a <span style="color:#ae81ff">3</span> -b <span style="color:#ae81ff">5</span> -s <span style="color:#e6db74">&#34;Hello world&#34;</span> -e
+</span></span><span style="display:flex;"><span>armmv tvemo
+</span></span><span style="display:flex;"><span><span style="color:#f92672">[</span>affinecipher<span style="color:#f92672">]</span>$ go run main.go -a <span style="color:#ae81ff">3</span> -b <span style="color:#ae81ff">5</span> -s <span style="color:#e6db74">&#34;armmv tvemo&#34;</span> -d
+</span></span><span style="display:flex;"><span>helloworld
+</span></span></code></pre></div><h1 id="theory">Theory</h1>
+<h2 id="encryption">Encryption</h2>
+<p>The encryption function is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>E(x) = (ai + b) mod m
+</span></span></code></pre></div><p>Where:</p>
+<ul>
+<li><code>i</code> is the letter&rsquo;s index from <code>0</code> to the length of the alphabet - 1.</li>
+<li><code>m</code> is the length of the alphabet.
+For the Latin alphabet <code>m</code> is <code>26</code>.</li>
+<li><code>a</code> and <code>b</code> are integers which make up the encryption key.</li>
+</ul>
+<p>Values <code>a</code> and <code>m</code> must be <em>coprime</em> (or, <em>relatively prime</em>) for
+automatic decryption to succeed, i.e., they have number <code>1</code> as their
+only common factor (more information can be found in the <a href="https://en.wikipedia.org/wiki/Coprime_integers">Wikipedia
+article about coprime integers</a>).</p>
+<p>Ciphertext is written out in groups of fixed length separated by
+space, the traditional group size being <code>5</code> letters.  This is to make
+it harder to guess encrypted text based on word boundaries.</p>
+<hr>
+<p>For mapping letters to value we use a <code>map</code> with its key a Go <code>rune</code> and
+its value an <code>int</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#75715e">// Mapping of letters to values.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">letterMap</span> = <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">rune</span>]<span style="color:#66d9ef">int</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#39;a&#39;</span>: <span style="color:#ae81ff">0</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#39;A&#39;</span>: <span style="color:#ae81ff">0</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#39;b&#39;</span>: <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#39;B&#39;</span>: <span style="color:#ae81ff">1</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#39;c&#39;</span>: <span style="color:#ae81ff">2</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#e6db74">&#39;C&#39;</span>: <span style="color:#ae81ff">2</span>,
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// and so on...</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The encode function does the following steps:</p>
+<ul>
+<li>Checks if key <code>a</code> is coprime with <code>m</code></li>
+<li>Trims whitespace using <code>strings.ReplaceAll</code></li>
+<li>Trims punctuation using the <code>\p{P}</code> Unicode Regexp character class and <code>ReplaceAll</code></li>
+<li>For each character using <code>range</code> , applies the formula <code>E(x) = (ai + b) mod m</code></li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#75715e">// Encode a string using the Affine cipher.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">Encode</span>(<span style="color:#a6e22e">text</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span> <span style="color:#66d9ef">int</span>) (<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span> !<span style="color:#a6e22e">IsCoprime</span>(<span style="color:#a6e22e">a</span>, <span style="color:#ae81ff">26</span>) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#a6e22e">ErrNotCoprime</span>
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">cipherText</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Builder</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">text</span> = <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">ReplaceAll</span>(<span style="color:#a6e22e">text</span>,<span style="color:#e6db74">&#34; &#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>) <span style="color:#75715e">// trim whitespace</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>	<span style="color:#75715e">// trim punctuation</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">pattern</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;[\\p{P}]&#34;</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">re</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">regexp</span>.<span style="color:#a6e22e">MustCompile</span>(<span style="color:#a6e22e">pattern</span>)
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">text</span> = <span style="color:#a6e22e">re</span>.<span style="color:#a6e22e">ReplaceAllString</span>(<span style="color:#a6e22e">text</span>, <span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">char</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">text</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">isNotDigit</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">strconv</span>.<span style="color:#a6e22e">Atoi</span>(string(<span style="color:#a6e22e">char</span>))
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">isNotDigit</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> { <span style="color:#75715e">//if letter</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">encValue</span> <span style="color:#f92672">:=</span> (<span style="color:#a6e22e">a</span> <span style="color:#f92672">*</span> <span style="color:#a6e22e">letterMap</span>[<span style="color:#a6e22e">char</span>] <span style="color:#f92672">+</span> <span style="color:#a6e22e">b</span>) <span style="color:#f92672">%</span> <span style="color:#ae81ff">26</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">cipherText</span>.<span style="color:#a6e22e">WriteString</span>(string(<span style="color:#a6e22e">codeMap</span>[<span style="color:#a6e22e">encValue</span>]))
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">isNotDigit</span> <span style="color:#f92672">==</span> <span style="color:#66d9ef">nil</span> { <span style="color:#75715e">// is digit, just append</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">cipherText</span>.<span style="color:#a6e22e">WriteString</span>(string(<span style="color:#a6e22e">char</span>))
+</span></span><span style="display:flex;"><span>		}		
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">SplitStringIntoFivedChunks</span>(<span style="color:#a6e22e">cipherText</span>.<span style="color:#a6e22e">String</span>()), <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="decryption">Decryption</h2>
+<p>The decryption function is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>D(y) = (a^-1)(y - b) mod m
+</span></span></code></pre></div><p>Where:</p>
+<ul>
+<li><code>y</code> is the numeric value of an encrypted letter, i.e., <code>y = E(x)</code></li>
+<li>it is important to note that <code>a^-1</code> is the modular multiplicative inverse (MMI) of <code>a mod m</code></li>
+<li>the modular multiplicative inverse only exists if <code>a</code> and <code>m</code> are coprime.</li>
+</ul>
+<p>The MMI of <code>a</code> is <code>x</code> such that the remainder after dividing <code>ax</code> by <code>m</code> is <code>1</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>ax mod m = 1
+</span></span></code></pre></div><p>More information regarding how to find a Modular Multiplicative Inverse and what it means can be found in the <a href="https://en.wikipedia.org/wiki/Modular_multiplicative_inverse">related Wikipedia article</a>.</p>
+<hr>
+<p>The decode function:</p>
+<ul>
+<li>Applies the decryption function using an opposite <code>code-to-letter</code> map:</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">codeMap</span> = <span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">int</span>]<span style="color:#66d9ef">rune</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">0</span>: <span style="color:#e6db74">&#39;a&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">1</span>: <span style="color:#e6db74">&#39;b&#39;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">2</span>: <span style="color:#e6db74">&#39;c&#39;</span>,
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// and so on...</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#75715e">// Decode a string using the Affine cipher.</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">Decode</span>(<span style="color:#a6e22e">text</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">a</span>, <span style="color:#a6e22e">b</span> <span style="color:#66d9ef">int</span>) (<span style="color:#66d9ef">string</span>, <span style="color:#66d9ef">error</span>) {
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">var</span> <span style="color:#a6e22e">plainText</span> <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">Builder</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>!<span style="color:#a6e22e">IsCoprime</span>(<span style="color:#a6e22e">a</span>, <span style="color:#ae81ff">26</span>) {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#a6e22e">errors</span>.<span style="color:#a6e22e">New</span>(<span style="color:#e6db74">&#34;A and 26 are not coprime.&#34;</span>)
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">text</span> = <span style="color:#a6e22e">strings</span>.<span style="color:#a6e22e">ReplaceAll</span>(<span style="color:#a6e22e">text</span>,<span style="color:#e6db74">&#34; &#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>) <span style="color:#75715e">// trim whitespace</span>
+</span></span><span style="display:flex;"><span>	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">char</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">text</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#75715e">// D(y) = (a^-1)(y - b) mod m</span>
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">unicode</span>.<span style="color:#a6e22e">IsDigit</span>(<span style="color:#a6e22e">char</span>) {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">plainText</span>.<span style="color:#a6e22e">WriteString</span>(string(<span style="color:#a6e22e">char</span>))			
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">encryptedLetterValue</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">letterMap</span>[<span style="color:#a6e22e">char</span>] <span style="color:#75715e">// y </span>
+</span></span><span style="display:flex;"><span>			<span style="color:#75715e">// a^-1 = FindMMIOfA(a)</span>
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">decValue</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">Mod26</span>((<span style="color:#a6e22e">FindMMIOfA</span>(<span style="color:#a6e22e">a</span>) <span style="color:#f92672">*</span> (<span style="color:#a6e22e">encryptedLetterValue</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">b</span>)))
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">plainText</span>.<span style="color:#a6e22e">WriteString</span>(string(<span style="color:#a6e22e">codeMap</span>[<span style="color:#a6e22e">decValue</span>]))
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}	
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">plainText</span>.<span style="color:#a6e22e">String</span>(), <span style="color:#66d9ef">nil</span>
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="example-of-finding-a-modular-multiplicative-inverse-mmi">Example of finding a Modular Multiplicative Inverse (MMI)</h2>
+<p>Finding MMI for <code>a = 15</code>:</p>
+<ul>
+<li><code>(15 * x) mod 26 = 1</code></li>
+<li><code>(15 * 7) mod 26 = 1</code>, ie. <code>105 mod 26 = 1</code></li>
+<li><code>7</code> is the MMI of <code>15 mod 26</code></li>
+</ul>
+<hr>
+<p>Implemented in code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">FindMMIOfA</span>(<span style="color:#a6e22e">a</span> <span style="color:#66d9ef">int</span>) <span style="color:#66d9ef">int</span> {
+</span></span><span style="display:flex;"><span>	<span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> {
+</span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">a</span><span style="color:#f92672">*</span><span style="color:#a6e22e">i</span>)<span style="color:#f92672">%</span><span style="color:#ae81ff">26</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">i</span>
+</span></span><span style="display:flex;"><span>		} <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>			<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>
+</span></span><span style="display:flex;"><span>		}
+</span></span><span style="display:flex;"><span>	}
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div>
+        </section>
+        <div class="post-tags">
+          
+          
+          
+        </div>
+      </div>
+
+      
+      
+    </div>
+
+    </article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2026  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+</div>
+    </body>
+</html>
