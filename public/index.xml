@@ -6,8 +6,15 @@
     <description>Recent content on Serban Dobrau&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 16:54:48 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 17:23:47 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A highly available web application, setup in AWS&#43;Terraform</title>
+      <link>http://localhost:1313/posts/terraform-aws-ha/</link>
+      <pubDate>Mon, 11 May 2026 17:23:47 +0300</pubDate>
+      <guid>http://localhost:1313/posts/terraform-aws-ha/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/terraform-aws.png&#34; alt=&#34;Terraform+AWS&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;To practice Terraform and working with AWS, I&amp;rsquo;ve set out to&#xA;architect a HA infrastructure for a sample web app, using &lt;a href=&#34;https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html&#34;&gt;ALB&lt;/a&gt;, &lt;a href=&#34;https://aws.amazon.com/cloudfront/&#34;&gt;CloudFront&lt;/a&gt;&#xA;and &lt;a href=&#34;https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html&#34;&gt;Auto Scaling Groups&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It could potentially evolve into a larger playground&#xA;with other ideas that would require Amazon Lambda, API Gateway&#xA;etc. For the moment the focus is VPC setup, IAM policies, ALBs, ASGs&#xA;and CloudFront.&lt;/p&gt;&#xA;&lt;p&gt;The repository can be found &lt;a href=&#34;https://github.com/sdobrau/terraform-project&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The repository also provides a Jenkinsfile for running various tests on the output&#xA;of &lt;code&gt;terraform plan&lt;/code&gt; and a &lt;code&gt;Dockerfile&lt;/code&gt; for spinning up the CI environment.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Gentoo Ansible playbook</title>
       <link>http://localhost:1313/posts/gentoo-ansible-playbook/</link>
