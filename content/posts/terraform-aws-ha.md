@@ -1,10 +1,10 @@
 +++
 date = '2026-05-11T17:23:47+03:00'
 draft = false
-title = 'A highly available web application, setup in AWS+Terraform'
+title = 'A highly available web application, setup in AWS + Terraform'
 +++
 
-![Terraform+AWS](../../images/terraform-aws.png)
+![Terraform + AWS](../../images/terraform-aws.png)
 
 # Introduction
 
@@ -71,3 +71,9 @@ docker {
             alwaysPull true
         }
 ```
+# Conclusion
+
+I learned a lot from this project, especially training a DevOps
+mindset, by aiming to improve the developer process via CI with
+Jenkins. I also have more confidence in how AWS works and how to write
+Terraform. There is still much to be learned in the future.

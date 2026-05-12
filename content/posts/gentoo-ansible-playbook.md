@@ -45,3 +45,9 @@ whenever any configuration state changes and is pushed to this
 repo. This way I have an up-to-date golden image after each push. See
 the repo at [this link](https://github.com/sdobrau/gentoo-packer) for
 the `Packer` script.
+
+# Conclusion
+
+I enjoyed learning Ansible and hope to use it more in the future. It
+definitely deserves its name of standard in configuration management.
+

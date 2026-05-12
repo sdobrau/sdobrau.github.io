@@ -188,4 +188,7 @@ func FindMMIOfA(a int) int {
 [mmi]: https://en.wikipedia.org/wiki/Modular_multiplicative_inverse
 [coprime-integers]: https://en.wikipedia.org/wiki/Coprime_integers
 
+# Conclusion
 
+Writing the Affine Cipher implementation in Go was a breeze, and I
+hope this post encourages more people to use Go for solving problems.
