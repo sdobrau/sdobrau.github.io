@@ -41,6 +41,42 @@
 				
 				
 				<section class="list-item">
+					<h1 class="title"><a href="/posts/goc-git-cloner-in-go/">Goc: Git Cloner in Go</a></h1>
+					<time>May 12, 2026</time>
+					<br><div class="description">
+	
+	<p><img src="../../images/go-concurrency.webp" alt="Go concurrency"></p>
+<h1 id="introduction">Introduction</h1>
+<p>In order to learn Go and practice its concurrency primitives I&rsquo;ve
+set out to write a small Git cloner with concurrency support.</p>
+<p>Its features are:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Clone users or groups, organisations&rsquo; repositories</li>
+<li><input checked="" disabled="" type="checkbox"> Parallelism: as many as N concurrent pulls/clones</li>
+<li><input checked="" disabled="" type="checkbox"> If repository already present, pull</li>
+<li><input checked="" disabled="" type="checkbox"> Forges supported:
+<ul>
+<li><input checked="" disabled="" type="checkbox"> GitHub</li>
+<li><input checked="" disabled="" type="checkbox"> GitLab (including instances)</li>
+<li><input checked="" disabled="" type="checkbox"> Gitea (including instances)</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> Tokens (taken from envvars <code>GITHUB|GITLAB|GITEA_TOKEN</code> or
+provided per-user/organisation)</li>
+<li><input checked="" disabled="" type="checkbox"> YAML file for declaring what and how to clone (use with -F):
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Ignore forks</li>
+<li><input checked="" disabled="" type="checkbox"> Ignore with stars lower than a specific amount</li>
+</ul>
+</li>
+</ul>
+<p>Example YAML file:</p>&hellip;
+	
+</div>
+					<a class="readmore" href="/posts/goc-git-cloner-in-go/">Read more ⟶</a>
+				</section>
+				
+				<section class="list-item">
 					<h1 class="title"><a href="/posts/terraform-aws-ha/">A highly available web application, setup in AWS&#43;Terraform</a></h1>
 					<time>May 11, 2026</time>
 					<br><div class="description">

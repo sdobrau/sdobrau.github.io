@@ -6,8 +6,15 @@
     <description>Recent content on Serban Dobrau&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 May 2026 17:23:47 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 19:59:17 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goc: Git Cloner in Go</title>
+      <link>http://localhost:1313/posts/goc-git-cloner-in-go/</link>
+      <pubDate>Tue, 12 May 2026 19:59:17 +0300</pubDate>
+      <guid>http://localhost:1313/posts/goc-git-cloner-in-go/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../images/go-concurrency.webp&#34; alt=&#34;Go concurrency&#34;&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;In order to learn Go and practice its concurrency primitives I&amp;rsquo;ve&#xA;set out to write a small Git cloner with concurrency support.&lt;/p&gt;&#xA;&lt;p&gt;Its features are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Clone users or groups, organisations&amp;rsquo; repositories&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Parallelism: as many as N concurrent pulls/clones&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; If repository already present, pull&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Forges supported:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; GitHub&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; GitLab (including instances)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Gitea (including instances)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tokens (taken from envvars &lt;code&gt;GITHUB|GITLAB|GITEA_TOKEN&lt;/code&gt; or&#xA;provided per-user/organisation)&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; YAML file for declaring what and how to clone (use with -F):&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Ignore forks&lt;/li&gt;&#xA;&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Ignore with stars lower than a specific amount&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Example YAML file:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A highly available web application, setup in AWS&#43;Terraform</title>
       <link>http://localhost:1313/posts/terraform-aws-ha/</link>
