@@ -14,7 +14,7 @@ set out to write a small Git cloner with concurrency support.
 Its features are:
 
 * [x] Clone users or groups, organisations' repositories
-* [x] Parallelism: as many as N concurrent pulls/clones
+* [x] Concurrency: as many as N concurrent pulls/clones
 * [x] If repository already present, pull
 * [x] Forges supported:
   * [x] GitHub
