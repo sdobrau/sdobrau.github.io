@@ -16,6 +16,7 @@ Its features are:
 * [x] Clone users or groups, organisations' repositories
 * [x] Concurrency: as many as N concurrent pulls/clones
 * [x] If repository already present, pull
+* [x] Pull/clone processing statistics on finish of run
 * [x] Forges supported:
   * [x] GitHub
   * [x] GitLab (including instances)
