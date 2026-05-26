@@ -12,6 +12,49 @@ To practice Terraform and working with AWS, I've set out to
 architect a HA infrastructure for a sample web app, using [ALB](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html), [CloudFront](https://aws.amazon.com/cloudfront/)
 and [Auto Scaling Groups](https://docs.aws.amazon.com/autoscaling/ec2/userguide/auto-scaling-groups.html).
 
+Here are some phone numbers.
+
+"+1 205 555 1234"
+"1-205-555-1234"
+"(205) 555-1234"
+"+44 (20) 7946 0958"
+"2055551234"
+"+12055551234"
+"+49 30 12345678"
+"020 7946 0958"
+"(415)555-2671"
+"+61 (2) 9374 4000"
+
+"+1 (205) 555-1234"
+"1 (205) 555 1234"
+"(205)-555-1234"
+"+33 1 42 68 53 00"
+"+81 (3) 1234-5678"
+"0044 20 7946 0958"
+"+1-800-555-0199"
+
+America:
+
+- *California (CA):* +1 213-555-4829
+- *New York (NY):* +1 212-555-1904
+- *Texas (TX):* +1 512-555-7361
+- *Florida (FL):* +1 305-555-8047
+- *Illinois (IL):* +1 312-555-6398
+- *Washington (WA):* +1 206-555-2710
+- *Arizona (AZ):* +1 602-555-9483
+- *Georgia (GA):* +1 404-555-1176
+- *Ohio (OH):* +1 614-555-5208
+- *Colorado (CO):* +1 303-555-8642
+
+These should not match
+
+"123"
+"phone: abc-def-ghij"
+"+1234567890123456"   // too long
+"12-34"               // too short
+"(abc) 555-1234"
+"++1 205 555 1234"
+
 It could potentially evolve into a larger playground
 with other ideas that would require Amazon Lambda, API Gateway
 etc. For the moment the focus is VPC setup, IAM policies, ALBs, ASGs
