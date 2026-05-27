@@ -111,138 +111,138 @@ General list:
 - Netherlands: 312318941589
 - Belgium: 322318941589
 - France: 332318941589
-- Spain: 34
-- Gibraltar: 350
-- Portugal: 351
-- Luxembourg: 352
-- Ireland: 353
-- Iceland: 354
-- Albania: 355
-- Malta: 356
-- Cyprus: 357
-- Bulgaria: 359
-- Hungary: 36
-- Lithuania: 370
-- Latvia: 371
-- Estonia: 372
-- Armenia: 374
-- Belarus: 375
-- Andorra: 376
-- Monaco: 377
-- San Marino: 378
-- Vatican City: 379
-- Ukraine: 380
-- Serbia: 381
-- Montenegro: 382
-- Kosovo: 383
-- Croatia: 385
-- Slovenia: 386
-- Bosnia and Herzegovina: 387
-- North Macedonia: 389
-- Romania: 40
-- Czech Republic: 420
-- Slovakia: 421
-- Liechtenstein: 423
-- Austria: 43
-- Denmark: 45
-- Sweden: 46
-- Poland: 48
-- Germany: 49
-- Falkland Islands: 500
-- Belize: 501
-- Guatemala: 502
-- El Salvador: 503
-- Honduras: 504
-- Nicaragua: 505
-- Costa Rica: 506
-- Panama: 507
-- Saint-Pierre and Miquelon: 508
-- Haiti: 509
-- Peru: 51
-- Mexico: 52
-- Cuba: 53
-- Argentina: 54
-- Brazil: 55
-- Chile: 56
-- Colombia: 57
-- Venezuela: 58
-- Guadeloupe: 590
-- Bolivia: 591
-- Guyana: 592
-- Ecuador: 593
-- French Guiana: 594
-- Paraguay: 595
-- Martinique: 596
-- Suriname: 597
-- Uruguay: 598
-- Sint Eustatius: Netherlands Antilles: 5993
--  Saba: Netherlands Antilles: 5994
--  Bonaire: Netherlands Antilles: 5997
--  Curaçao: Netherlands Antilles: 5999
-- Malaysia: 60
-- Indonesia: 62
-- Philippines: 63
-- New Zealand: 64
-- Singapore: 65
-- Thailand: 66
-- East Timor: 670
-- Brunei: 673
-- Nauru: 674
-- Papua New Guinea: 675
-- Tonga: 676
-- Solomon Islands: 677
-- Vanuatu: 678
-- Fiji: 679
-- Palau: 680
-- Wallis and Futuna: 681
-- Cook Islands: 682
-- Niue: 683
-- Samoa: 685
-- Kiribati: 686
-- New Caledonia: 687
-- Tuvalu: 688
-- French Polynesia: 689
-- Tokelau: 690
-- Federated States of Micronesia: 691
-- Marshall Islands: 692
-- Japan: 81
-- South Korea: 82
-- Vietnam: 84
-- North Korea: 850
-- Hong Kong: 852
-- Macau: 853
-- Cambodia: 855
-- Laos: 856
-- China: 86
-- Bangladesh: 880
-- Taiwan: 886
-- Afghanistan: 93
-- Sri Lanka: 94
-- Myanmar: 95
-- Maldives: 960
-- Lebanon: 961
-- Jordan: 962
-- Syria: 963
-- Iraq: 964
-- Kuwait: 965
-- Saudi Arabia: 966
-- Yemen: 967
-- Oman: 968
-- Palestine: 970
-- United Arab Emirates: 971
-- Israel: 972
-- Bahrain: 973
-- Qatar: 974
-- Bhutan: 975
-- Mongolia: 976
-- Nepal: 977
-- Iran: 98
-- Tajikistan: 992
-- Turkmenistan: 993
-- Azerbaijan: 994
-- State of Georgia: 995
-- Kyrgyzstan: 996
-- Uzbekistan: 998
+- Spain: 343149084
+- Gibraltar: 3503149084
+- Portugal: 3513149084
+- Luxembourg: 3523149084
+- Ireland: 3533149084
+- Iceland: 3543149084
+- Albania: 3553149084
+- Malta: 3563149084
+- Cyprus: 3573149084
+- Bulgaria: 3593149084
+- Hungary: 363149084
+- Lithuania: 3703149084
+- Latvia: 3713149084
+- Estonia: 3723149084
+- Armenia: 3743149084
+- Belarus: 3753149084
+- Andorra: 3763149084
+- Monaco: 3773149084
+- San Marino: 3783149084
+- Vatican City: 3793149084
+- Ukraine: 3803149084
+- Serbia: 3813149084
+- Montenegro: 3823149084
+- Kosovo: 3833149084
+- Croatia: 3853149084
+- Slovenia: 3863149084
+- Bosnia and Herzegovina: 3873149084
+- North Macedonia: 3893149084
+- Romania: 403149084
+- Czech Republic: 4203149084
+- Slovakia: 4213149084
+- Liechtenstein: 4233149084
+- Austria: 433149084
+- Denmark: 453149084
+- Sweden: 463149084
+- Poland: 483149084
+- Germany: 493149084
+- Falkland Islands: 5003149084
+- Belize: 5013149084
+- Guatemala: 5023149084
+- El Salvador: 5033149084
+- Honduras: 5043149084
+- Nicaragua: 5053149084
+- Costa Rica: 5063149084
+- Panama: 5073149084
+- Saint-Pierre and Miquelon: 5083149084
+- Haiti: 5093149084
+- Peru: 513149084
+- Mexico: 523149084
+- Cuba: 533149084
+- Argentina: 543149084
+- Brazil: 553149084
+- Chile: 563149084
+- Colombia: 573149084
+- Venezuela: 583149084
+- Guadeloupe: 5903149084
+- Bolivia: 5913149084
+- Guyana: 5923149084
+- Ecuador: 5933149084
+- French Guiana: 5943149084
+- Paraguay: 5953149084
+- Martinique: 5963149084
+- Suriname: 5973149084
+- Uruguay: 5983149084
+- Sint Eustatius: Netherlands Antilles: 59933149084
+-  Saba: Netherlands Antilles: 59943149084
+-  Bonaire: Netherlands Antilles: 59973149084
+-  Curaçao: Netherlands Antilles: 59993149084
+- Malaysia: 603149084
+- Indonesia: 623149084
+- Philippines: 633149084
+- New Zealand: 643149084
+- Singapore: 653149084
+- Thailand: 663149084
+- East Timor: 6703149084
+- Brunei: 6733149084
+- Nauru: 6743149084
+- Papua New Guinea: 6753149084
+- Tonga: 6763149084
+- Solomon Islands: 6773149084
+- Vanuatu: 6783149084
+- Fiji: 6793149084
+- Palau: 6803149084
+- Wallis and Futuna: 6813149084
+- Cook Islands: 6823149084
+- Niue: 6833149084
+- Samoa: 6853149084
+- Kiribati: 6863149084
+- New Caledonia: 6873149084
+- Tuvalu: 6883149084
+- French Polynesia: 6893149084
+- Tokelau: 6903149084
+- Federated States of Micronesia: 6913149084
+- Marshall Islands: 6923149084
+- Japan: 813149084
+- South Korea: 823149084
+- Vietnam: 843149084
+- North Korea: 8503149084
+- Hong Kong: 8523149084
+- Macau: 8533149084
+- Cambodia: 8553149084
+- Laos: 8563149084
+- China: 863149084
+- Bangladesh: 8803149084
+- Taiwan: 8863149084
+- Afghanistan: 933149084
+- Sri Lanka: 943149084
+- Myanmar: 953149084
+- Maldives: 9603149084
+- Lebanon: 9613149084
+- Jordan: 9623149084
+- Syria: 9633149084
+- Iraq: 9643149084
+- Kuwait: 9653149084
+- Saudi Arabia: 9663149084
+- Yemen: 9673149084
+- Oman: 9683149084
+- Palestine: 9703149084
+- United Arab Emirates: 9713149084
+- Israel: 9723149084
+- Bahrain: 9733149084
+- Qatar: 9743149084
+- Bhutan: 9753149084
+- Mongolia: 9763149084
+- Nepal: 9773149084
+- Iran: 983149084
+- Tajikistan: 9923149084
+- Turkmenistan: 9933149084
+- Azerbaijan: 9943149084
+- State of Georgia: 9953149084
+- Kyrgyzstan: 9963149084
+- Uzbekistan: 9983149084
  - Zanzibar: Tanzania: 25524
  - Mayotte: Réunion: 262269
  - Mayotte: Réunion: 262639
@@ -260,7 +260,7 @@ General list:
  - Cocos Islands: Australia: 618916283214
  - Christmas Island: Australia: 618916483214
  - Australian Antarctic Territory: Australian External Territories: 672183214
- - Norfolk Island: Australian External Territories: 672383214
+ - NNorfolk Island: Australian External Territories: 672383214
  - Jammu: India: 9119183214
  - Kashmir: India: 9119483214
  - Gilgit Baltistan: Pakistan: 9258183214
