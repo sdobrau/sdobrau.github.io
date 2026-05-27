@@ -1,3 +1,1125 @@
 # sdobrau.github.io
 
-# sdobrau.github.io
+## sdobrau.github.io
+
+Does not match:
+- Years (1829-1850)
+- Years 1829-1850
+- Years 230-260
+- Dates (10-12-26)
+- Dates 10-12-1995
+- Dates 10-12-95
+
+
+- Hyphens
+- Canada: United States: 1-78093489015
+- Canada: United States: 1-82593489015
+- Canada: United States: 1-58793489015
+- Canada: United States: 1-40393489015
+- Canada: United States: 1-25093489015
+- Canada: United States: 1-60493489015
+- Canada: United States: 1-23693489015
+- Canada: United States: 1-67293489015
+- Canada: United States: 1-77893489015
+- Canada: United States: 1-43193489015
+- Canada: United States: 1-20493489015
+- Canada: United States: 1-50693489015
+- Canada: United States: 1-42893489015
+- Canada: United States: 1-70993489015
+- Canada: United States: 1-86793489015
+- Canada: United States: 1-90293489015
+- Canada: United States: 1-78293489015
+- Canada: United States: 1-86793489015
+- Canada: United States: 1-80793489015
+- Canada: United States: 1-90593489015
+- Canada: United States: 1-70593489015
+- Canada: United States: 1-64793489015
+- Canada: United States: 1-61393489015
+- Canada: United States: 1-54893489015
+- Canada: United States: 1-51993489015
+- Canada: United States: 1-43793489015
+- Canada: United States: 1-41693489015
+- Canada: United States: 1-36593489015
+- Canada: United States: 1-34393489015
+- Canada: United States: 1-28993489015
+- Canada: United States: 1-24993489015
+- Canada: United States: 1-22693489015
+- Canada: United States: 1-78293489015
+- Canada: United States: 1-90293489015
+- Canada: United States: 1-43893489015
+- Canada: United States: 1-45093489015
+- Canada: United States: 1-51493489015
+- Canada: United States: 1-41893489015
+- Canada: United States: 1-36793489015
+- Canada: United States: 1-81993489015
+- Canada: United States: 1-35493489015
+- Canada: United States: 1-57993489015
+- Canada: United States: 1-87393489015
+- Canada: United States: 1-58193489015
+- Canada: United States: 1-30693489015
+- Canada: United States: 1-63993489015
+- Canada: United States: 1-86793489015
+- Egypt: 2093489015
+- South Sudan: 21193489015
+- Morocco: 21293489015
+- Algeria: 21393489015
+- Tunisia: 21693489015
+- Libya: 21893489015
+- Gambia: 22093489015
+- Senegal: 22193489015
+- Mauritania: 22293489015
+- Mali: 22393489015
+- Guinea: 22493489015
+- Ivory Coast: 22593489015
+- Burkina Faso: 22693489015
+- Niger: 22793489015
+- Togo: 22893489015
+- Benin: 22993489015
+- Mauritius: 23093489015
+- Liberia: 23193489015
+- Sierra Leone: 23293489015
+- Ghana: 23393489015
+- Nigeria: 23493489015
+- Chad: 23593489015
+- Central African Republic: 23693489015
+- Cameroon: 23793489015
+- Cape Verde: 23893489015
+- São Tomé and Príncipe: 23993489015
+- Equatorial Guinea: 24093489015
+- Gabon: 24193489015
+- Republic of the Congo: 24293489015
+- Democratic Republic of the Congo: 24393489015
+- Angola: 24493489015
+- Guinea-Bissau: 24593489015
+- British Indian Ocean Territory: 24693489015
+- Ascension Island: 24793489015
+- Seychelles: 24893489015
+- Sudan: 24993489015
+- Rwanda: 25093489015
+- Ethiopia: 25193489015
+- Somalia: 25293489015
+- Djibouti: 25393489015
+- Kenya: 25493489015
+- Uganda: 25693489015
+- Burundi: 25793489015
+- Mozambique: 25893489015
+- Zambia: 26093489015
+- Madagascar: 26193489015
+- Zimbabwe: 26393489015
+- Namibia: 26493489015
+- Malawi: 26593489015
+- Lesotho: 26693489015
+- Botswana: 26793489015
+- Eswatini: 26893489015
+- Comoros: 26993489015
+- South Africa: 2793489015
+- Eritrea: 29193489015
+- Aruba: 29793489015
+- Faroe Islands: 29893489015
+- Greenland: 29993489015
+- Greece: 3093489015
+- Netherlands: 3193489015
+- Belgium: 3293489015
+- France: 3393489015
+- Spain: 3493489015
+- Gibraltar: 35093489015
+- Portugal: 35193489015
+- Luxembourg: 35293489015
+- Ireland: 35393489015
+- Iceland: 35493489015
+- Albania: 35593489015
+- Malta: 35693489015
+- Cyprus: 35793489015
+- Bulgaria: 35993489015
+- Hungary: 3693489015
+- Lithuania: 37093489015
+- Latvia: 37193489015
+- Estonia: 37293489015
+- Armenia: 37493489015
+- Belarus: 37593489015
+- Andorra: 37693489015
+- Monaco: 37793489015
+- San Marino: 37893489015
+- Vatican City: 37993489015
+- Ukraine: 38093489015
+- Serbia: 38193489015
+- Montenegro: 38293489015
+- Kosovo: 38393489015
+- Croatia: 38593489015
+- Slovenia: 38693489015
+- Bosnia and Herzegovina: 38793489015
+- North Macedonia: 38993489015
+- Romania: 4093489015
+- Czech Republic: 42093489015
+- Slovakia: 42193489015
+- Liechtenstein: 42393489015
+- Austria: 4393489015
+- Denmark: 4593489015
+- Sweden: 4693489015
+- Poland: 4893489015
+- Germany: 4993489015
+- Falkland Islands: 50093489015
+- Belize: 50193489015
+- Guatemala: 50293489015
+- El Salvador: 50393489015
+- Honduras: 50493489015
+- Nicaragua: 50593489015
+- Costa Rica: 50693489015
+- Panama: 50793489015
+- Saint-Pierre and Miquelon: 50893489015
+- Haiti: 50993489015
+- Peru: 5193489015
+- Mexico: 5293489015
+- Cuba: 5393489015
+- Argentina: 5493489015
+- Brazil: 5593489015
+- Chile: 5693489015
+- Colombia: 5793489015
+- Venezuela: 5893489015
+- Guadeloupe: 59093489015
+- Bolivia: 59193489015
+- Guyana: 59293489015
+- Ecuador: 59393489015
+- French Guiana: 59493489015
+- Paraguay: 59593489015
+- Martinique: 59693489015
+- Suriname: 59793489015
+- Uruguay: 59893489015
+- Sint Eustatius: Netherlands Antilles: 599-393489015
+- Saba: Netherlands Antilles: 599-493489015
+- Bonaire: Netherlands Antilles: 599-793489015
+- Curaçao: Netherlands Antilles: 599-993489015
+- Malaysia: 6093489015
+- Indonesia: 6293489015
+- Philippines: 6393489015
+- New Zealand: 6493489015
+- Singapore: 6593489015
+- Thailand: 6693489015
+- East Timor: 67093489015
+- Brunei: 67393489015
+- Nauru: 67493489015
+- Papua New Guinea: 67593489015
+- Tonga: 67693489015
+- Solomon Islands: 67793489015
+- Vanuatu: 67893489015
+- Fiji: 67993489015
+- Palau: 68093489015
+- Wallis and Futuna: 68193489015
+- Cook Islands: 68293489015
+- Niue: 68393489015
+- Samoa: 68593489015
+- Kiribati: 68693489015
+- New Caledonia: 68793489015
+- Tuvalu: 68893489015
+- French Polynesia: 68993489015
+- Tokelau: 69093489015
+- Federated States of Micronesia: 69193489015
+- Marshall Islands: 69293489015
+- Japan: 8193489015
+- South Korea: 8293489015
+- Vietnam: 8493489015
+- North Korea: 85093489015
+- Hong Kong: 85293489015
+- Macau: 85393489015
+- Cambodia: 85593489015
+- Laos: 85693489015
+- China: 8693489015
+- Bangladesh: 88093489015
+- Taiwan: 88693489015
+- Afghanistan: 9393489015
+- Sri Lanka: 9493489015
+- Myanmar: 9593489015
+- Maldives: 96093489015
+- Lebanon: 96193489015
+- Jordan: 96293489015
+- Syria: 96393489015
+- Iraq: 96493489015
+- Kuwait: 96593489015
+- Saudi Arabia: 96693489015
+- Yemen: 96793489015
+- Oman: 96893489015
+- Palestine: 97093489015
+- United Arab Emirates: 97193489015
+- Israel: 97293489015
+- Bahrain: 97393489015
+- Qatar: 97493489015
+- Bhutan: 97593489015
+- Mongolia: 97693489015
+- Nepal: 97793489015
+- Iran: 9893489015
+- Tajikistan: 99293489015
+- Turkmenistan: 99393489015
+- Azerbaijan: 99493489015
+- State of Georgia: 99593489015
+- Kyrgyzstan: 99693489015
+- Uzbekistan: 99893489015
+- Zanzibar: Tanzania: 255-2493489015
+- Mayotte: Réunion: 262-26993489015
+- Mayotte: Réunion: 262-63993489015
+- Tristan da Cunha: Saint Helena: 290-893489015
+- Åland: Finland: 358-1893489015
+- San Marino: Italy: 39-054993489015
+- Vatican City: Italy: 39-0669893489015
+- Transnistria: Moldova: 373-293489015
+- Transnistria: Moldova: 373-593489015
+- Campione d'Italia: Switzerland: 41-9193489015
+- Guernsey: United Kingdom: 44-148193489015
+- Jersey: United Kingdom: 44-153493489015
+- Isle of Man: United Kingdom: 44-162493489015
+- Svalbard: Norway: 47-7993489015
+- Cocos Islands: Australia: 61-8916293489015
+- Christmas Island: Australia: 61-8916493489015
+- Australian Antarctic Territory: Australian External Territories: 672-193489015
+- Norfolk Island: Australian External Territories: 672-393489015
+- Abkhazia: 7840123582
+- Abkhazia: 7940123582
+- South Ossetia: 7850348149
+- South Ossetia: 7929348149
+- Russia: 7193489015
+- Russia: 7293489015
+- Russia: 7393489015
+- Russia: 7493489015
+- Russia: 7593489015
+- Russia: 7893489015
+- Russia: 7993489015
+- Kazakhstan: 7093489015
+- Kazakhstan: 7693489015
+- Kazakhstan: 7793489015
+- Nothern Cyprus: Turkey: 90-39293489015
+- Jammu: India: 91-19193489015
+- Kashmir: India: 91-19493489015
+- Gilgit Baltistan: Pakistan: 92-58193489015
+- Azad Kashmir: Pakistan: 92-58293489015
+- Spaces (and hyphens)
+- United States: Toll free: 1 800 213894
+- Canada: United States: 1 780 93489015
+- Canada: United States: 1 825 93489015
+- Canada: United States: 1 587 93489015
+- Canada: United States: 1 403 93489015
+- Canada: United States: 1 250 93489015
+- Canada: United States: 1 604 93489015
+- Canada: United States: 1 236 93489015
+- Canada: United States: 1 672 93489015
+- Canada: United States: 1 778 93489015
+- Canada: United States: 1 431 93489015
+- Canada: United States: 1 204 93489015
+- Canada: United States: 1 506 93489015
+- Canada: United States: 1 428 93489015
+- Canada: United States: 1 709 93489015
+- Canada: United States: 1 867 93489015
+- Canada: United States: 1 902 93489015
+- Canada: United States: 1 782 93489015
+- Canada: United States: 1 867 93489015
+- Canada: United States: 1 807 93489015
+- Canada: United States: 1 905 93489015
+- Canada: United States: 1 705 93489015
+- Canada: United States: 1 647 93489015
+- Canada: United States: 1 613 93489015
+- Canada: United States: 1 548 93489015
+- Canada: United States: 1 519 93489015
+- Canada: United States: 1 437 93489015
+- Canada: United States: 1 416 93489015
+- Canada: United States: 1 365 93489015
+- Canada: United States: 1 343 93489015
+- Canada: United States: 1 289 93489015
+- Canada: United States: 1 249 93489015
+- Canada: United States: 1 226 93489015
+- Canada: United States: 1 782 93489015
+- Canada: United States: 1 902 93489015
+- Canada: United States: 1 438 93489015
+- Canada: United States: 1 450 93489015
+- Canada: United States: 1 514 93489015
+- Canada: United States: 1 418 93489015
+- Canada: United States: 1 367 93489015
+- Canada: United States: 1 819 93489015
+- Canada: United States: 1 354 93489015
+- Canada: United States: 1 579 93489015
+- Canada: United States: 1 873 93489015
+- Canada: United States: 1 58193489015
+- Canada: United States: 1 30693489015
+- Canada: United States: 1 63993489015
+- Canada: United States: 1 86793489015
+- Egypt: 209 3489015
+- South Sudan: 211 93489015
+- Morocco: 212 93489015
+- Algeria: 213 93489015
+- Tunisia: 216 93489015
+- Libya: 218 93489015
+- Gambia: 220 93489015
+- Senegal: 221 93489015
+- Mauritania: 222 93489015
+- Mali: 223 93489015
+- Guinea: 224 93489015
+- Ivory Coast: 225 93489015
+- Burkina Faso: 226 93489015
+- Niger: 227 93489015
+- Togo: 228 93489015
+- Benin: 229 93489015
+- Mauritius: 230 93489015
+- Liberia: 231 93489015
+- Sierra Leone: 232 93489015
+- Ghana: 233 93489015
+- Nigeria: 234 93489015
+- Chad: 235 93489015
+- Central African Republic: 236 93489015
+- Cameroon: 237 93489015
+- Cape Verde: 238 93489015
+- São Tomé and Príncipe: 239 93489015
+- Equatorial Guinea: 240 93489015
+- Gabon: 241 93489015
+- Republic of the Congo: 242 93489015
+- Democratic Republic of the Congo: 243 93489015
+- Angola: 244 93489015
+- Guinea-Bissau: 245 93489015
+- British Indian Ocean Territory: 246 93489015
+- Ascension Island: 247 93489015
+- Seychelles: 248 93489015
+- Sudan: 249 93489015
+- Rwanda: 250 93489015
+- Ethiopia: 251 93489015
+- Somalia: 252 93489015
+- Djibouti: 253 93489015
+- Kenya: 254 93489015
+- Uganda: 256 93489015
+- Burundi: 257 93489015
+- Mozambique: 258 93489015
+- Zambia: 260 93489015
+- Madagascar: 261 93489015
+- Zimbabwe: 263 93489015
+- Namibia: 264 93489015
+- Malawi: 265 93489015
+- Lesotho: 266 93489015
+- Botswana: 267 93489015
+- Eswatini: 268 93489015
+- Comoros: 269 93489015
+- South Africa: 279 3489015
+- Eritrea: 291 93489015
+- Aruba: 297 93489015
+- Faroe Islands: 298 93489015
+- Greenland: 299 93489015
+- Greece: 309 3489015
+- Netherlands: 319 3489015
+- Belgium: 329 3489015
+- France: 339 3489015
+- Spain: 349 3489015
+- Gibraltar: 350 93489015
+- Portugal: 351 93489015
+- Luxembourg: 352 93489015
+- Ireland: 353 93489015
+- Iceland: 354 93489015
+- Albania: 355 93489015
+- Malta: 356 93489015
+- Cyprus: 357 93489015
+- Bulgaria: 359 93489015
+- Hungary: 369 3489015
+- Lithuania: 370 93489015
+- Latvia: 371 93489015
+- Estonia: 372 93489015
+- Armenia: 374 93489015
+- Belarus: 375 93489015
+- Andorra: 376 93489015
+- Monaco: 377 93489015
+- San Marino: 378 93489015
+- Vatican City: 379 93489015
+- Ukraine: 380 93489015
+- Serbia: 381 93489015
+- Montenegro: 382 93489015
+- Kosovo: 383 93489015
+- Croatia: 385 93489015
+- Slovenia: 386 93489015
+- Bosnia and Herzegovina: 387 93489015
+- North Macedonia: 389 93489015
+- Romania: 409 3489015
+- Czech Republic: 420 93489015
+- Slovakia: 421 93489015
+- Liechtenstein: 423 93489015
+- Austria: 439 3489015
+- Denmark: 459 3489015
+- Sweden: 469 3489015
+- Poland: 489 3489015
+- Germany: 499 3489015
+- Falkland Islands: 500 93489015
+- Belize: 501 93489015
+- Guatemala: 502 93489015
+- El Salvador: 503 93489015
+- Honduras: 504 93489015
+- Nicaragua: 505 93489015
+- Costa Rica: 506 93489015
+- Panama: 507 93489015
+- Saint-Pierre and Miquelon: 508 93489015
+- Haiti: 509 93489015
+- Peru: 519 3489015
+- Mexico: 529 3489015
+- Cuba: 539 3489015
+- Argentina: 549 3489015
+- Brazil: 559 3489015
+- Chile: 569 3489015
+- Colombia: 579 3489015
+- Venezuela: 589 3489015
+- Guadeloupe: 590 93489015
+- Bolivia: 591 93489015
+- Guyana: 592 93489015
+- Ecuador: 593 93489015
+- French Guiana: 594 93489015
+- Paraguay: 595 93489015
+- Martinique: 596 93489015
+- Suriname: 597 93489015
+- Uruguay: 598 93489015
+- Sint Eustatius: Netherlands Antilles: 599 -393489015
+- Saba: Netherlands Antilles: 599 -493489015
+- Bonaire: Netherlands Antilles: 599 -793489015
+- Curaçao: Netherlands Antilles: 599 -993489015
+- Malaysia: 609 3489015
+- Indonesia: 629 3489015
+- Philippines: 639 3489015
+- New Zealand: 649 3489015
+- Singapore: 659 3489015
+- Thailand: 669 3489015
+- East Timor: 670 93489015
+- Brunei: 673 93489015
+- Nauru: 674 93489015
+- Papua New Guinea: 675 93489015
+- Tonga: 676 93489015
+- Solomon Islands: 677 93489015
+- Vanuatu: 678 93489015
+- Fiji: 679 93489015
+- Palau: 680 93489015
+- Wallis and Futuna: 681 93489015
+- Cook Islands: 682 93489015
+- Niue: 683 93489015
+- Samoa: 685 93489015
+- Kiribati: 686 93489015
+- New Caledonia: 687 93489015
+- Tuvalu: 688 93489015
+- French Polynesia: 689 93489015
+- Tokelau: 690 93489015
+- Federated States of Micronesia: 691 93489015
+- Marshall Islands: 692 93489015
+- Japan: 819 3489015
+- South Korea: 829 3489015
+- Vietnam: 849 3489015
+- North Korea: 850 93489015
+- Hong Kong: 852 93489015
+- Macau: 853 93489015
+- Cambodia: 855 93489015
+- Laos: 856 93489015
+- China: 869 3489015
+- Bangladesh: 880 93489015
+- Taiwan: 886 93489015
+- Afghanistan: 939 3489015
+- Sri Lanka: 949 3489015
+- Myanmar: 959 3489015
+- Maldives: 960 93489015
+- Lebanon: 961 93489015
+- Jordan: 962 93489015
+- Syria: 963 93489015
+- Iraq: 964 93489015
+- Kuwait: 965 93489015
+- Saudi Arabia: 966 93489015
+- Yemen: 967 93489015
+- Oman: 968 93489015
+- Palestine: 970 93489015
+- United Arab Emirates: 971 93489015
+- Israel: 972 93489015
+- Bahrain: 973 93489015
+- Qatar: 974 93489015
+- Bhutan: 975 93489015
+- Mongolia: 976 93489015
+- Nepal: 977 93489015
+- Iran: 989 3489015
+- Tajikistan: 992 93489015
+- Turkmenistan: 993 93489015
+- Azerbaijan: 994 93489015
+- State of Georgia: 995 93489015
+- Kyrgyzstan: 996 93489015
+- Uzbekistan: 998 93489015
+- Zanzibar: Tanzania: 255 -2493489015
+- Mayotte: Réunion: 262 -26993489015
+- Mayotte: Réunion: 262 -63993489015
+- Tristan da Cunha: Saint Helena: 290 -893489015
+- Åland: Finland: 358 -1893489015
+- San Marino: Italy: 39- 054993489015
+- Vatican City: Italy: 39- 0669893489015
+- Transnistria: Moldova: 373 -293489015
+- Transnistria: Moldova: 373 -593489015
+- Campione d'Italia: Switzerland: 41- 9193489015
+- Guernsey: United Kingdom: 44- 148193489015
+- Jersey: United Kingdom: 44- 153493489015
+- Isle of Man: United Kingdom: 44- 162493489015
+- Svalbard: Norway: 47- 7993489015
+- Cocos Islands: Australia: 61- 8916293489015
+- Christmas Island: Australia: 61- 8916493489015
+- Australian Antarctic Territory: Australian External Territories: 672 -193489015
+- Norfolk Island: Australian External Territories: 672 -393489015
+- Russia: 719 3489015
+- Russia: 729 3489015
+- Russia: 739 3489015
+- Russia: 749 3489015
+- Russia: 759 3489015
+- Russia: 789 3489015
+- Russia: 799 3489015
+- Kazakhstan: 709 3489015
+- Kazakhstan: 769 3489015
+- Kazakhstan: 779 3489015
+- Nothern Cyprus: Turkey: 90 39293489015
+- Jammu: India: 91 19193489015
+- Kashmir: India: 91 19493489015
+- Gilgit Baltistan: Pakistan: 92 58193489015
+- Azad Kashmir: Pakistan: 92 58293489015
+- Parens
+- Canada: United States: 1 (780)93489015
+- Canada: United States: 1 (825)93489015
+- Canada: United States: 1 (587)93489015
+- Canada: United States: 1 (403)93489015
+- Canada: United States: 1 (250)93489015
+- Canada: United States: 1 (604)93489015
+- Canada: United States: 1 (236)93489015
+- Canada: United States: 1 (672)93489015
+- Canada: United States: 1 (778)93489015
+- Canada: United States: 1 (431)93489015
+- Canada: United States: 1 (204)93489015
+- Canada: United States: 1 (506)93489015
+- Canada: United States: 1 (428)93489015
+- Canada: United States: 1 (709)93489015
+- Canada: United States: 1 (867)93489015
+- Canada: United States: 1 (902)93489015
+- Canada: United States: 1 (782)93489015
+- Canada: United States: 1 (867)93489015
+- Canada: United States: 1 (807)93489015
+- Canada: United States: 1 (905)93489015
+- Canada: United States: 1 (705)93489015
+- Canada: United States: 1 (647)93489015
+- Canada: United States: 1 (613)93489015
+- Canada: United States: 1 (548)93489015
+- Canada: United States: 1 (519)93489015
+- Canada: United States: 1 (437)93489015
+- Canada: United States: 1 (416)93489015
+- Canada: United States: 1 (365)93489015
+- Canada: United States: 1 (343)93489015
+- Canada: United States: 1 (289)93489015
+- Canada: United States: 1 (249)93489015
+- Canada: United States: 1 (226)93489015
+- Canada: United States: 1 (782)93489015
+- Canada: United States: 1 (902)93489015
+- Canada: United States: 1 (438)93489015
+- Canada: United States: 1 (450)93489015
+- Canada: United States: 1 (514)93489015
+- Canada: United States: 1 (418)93489015
+- Canada: United States: 1 (367)93489015
+- Canada: United States: 1 (819)93489015
+- Canada: United States: 1 (354)93489015
+- Canada: United States: 1 (579)93489015
+- Canada: United States: 1 (873)93489015
+- Canada: United States: 1 (581)93489015
+- Canada: United States: 1 (306)93489015
+- Canada: United States: 1 (639)93489015
+- Canada: United States: 1 (867)93489015
+- Egypt: 209 (348)9015
+- South Sudan: 211 (934)89015
+- Morocco: 212 (934)89015 etc
+- Algeria: 213 93489015
+- Tunisia: 216 93489015
+- Libya: 218 93489015
+- Gambia: 220 93489015
+- Senegal: 221 93489015
+- Mauritania: 222 93489015
+- Mali: 223 93489015
+- Guinea: 224 93489015
+- Ivory Coast: 225 93489015
+- Burkina Faso: 226 93489015
+- Niger: 227 93489015
+- Togo: 228 93489015
+- Benin: 229 93489015
+- Mauritius: 230 93489015
+- Liberia: 231 93489015
+- Sierra Leone: 23293489015
+- Ghana: 23393489015
+- Nigeria: 23493489015
+- Chad: 23593489015
+- Central African Republic: 23693489015
+- Cameroon: 23793489015
+- Cape Verde: 23893489015
+- São Tomé and Príncipe: 23993489015
+- Equatorial Guinea: 24093489015
+- Gabon: 24193489015
+- Republic of the Congo: 24293489015
+- Democratic Republic of the Congo: 24393489015
+- Angola: 24493489015
+- Guinea-Bissau: 24593489015
+- British Indian Ocean Territory: 24693489015
+- Ascension Island: 24793489015
+- Seychelles: 24893489015
+- Sudan: 24993489015
+- Rwanda: 25093489015
+- Ethiopia: 25193489015
+- Somalia: 25293489015
+- Djibouti: 25393489015
+- Kenya: 25493489015
+- Uganda: 25693489015
+- Burundi: 25793489015
+- Mozambique: 25893489015
+- Zambia: 26093489015
+- Madagascar: 26193489015
+- Zimbabwe: 26393489015
+- Namibia: 26493489015
+- Malawi: 26593489015
+- Lesotho: 26693489015
+- Botswana: 26793489015
+- Eswatini: 26893489015
+- Comoros: 26993489015
+- South Africa: 2793489015
+- Eritrea: 29193489015
+- Aruba: 29793489015
+- Faroe Islands: 29893489015
+- Greenland: 29993489015
+- Greece: 3093489015
+- Netherlands: 3193489015
+- Belgium: 3293489015
+- France: 3393489015
+- Spain: 3493489015
+- Gibraltar: 35093489015
+- Portugal: 35193489015
+- Luxembourg: 35293489015
+- Ireland: 35393489015
+- Iceland: 35493489015
+- Albania: 35593489015
+- Malta: 35693489015
+- Cyprus: 35793489015
+- Bulgaria: 35993489015
+- Hungary: 3693489015
+- Lithuania: 37093489015
+- Latvia: 37193489015
+- Estonia: 37293489015
+- Armenia: 37493489015
+- Belarus: 37593489015
+- Andorra: 37693489015
+- Monaco: 37793489015
+- San Marino: 37893489015
+- Vatican City: 37993489015
+- Ukraine: 38093489015
+- Serbia: 38193489015
+- Montenegro: 38293489015
+- Kosovo: 38393489015
+- Croatia: 38593489015
+- Slovenia: 38693489015
+- Bosnia and Herzegovina: 38793489015
+- North Macedonia: 38993489015
+- Romania: 4093489015
+- Czech Republic: 42093489015
+- Slovakia: 42193489015
+- Liechtenstein: 42393489015
+- Austria: 4393489015
+- Denmark: 4593489015
+- Sweden: 4693489015
+- Poland: 4893489015
+- Germany: 4993489015
+- Falkland Islands: 50093489015
+- Belize: 50193489015
+- Guatemala: 50293489015
+- El Salvador: 50393489015
+- Honduras: 50493489015
+- Nicaragua: 50593489015
+- Costa Rica: 50693489015
+- Panama: 50793489015
+- Saint-Pierre and Miquelon: 50893489015
+- Haiti: 50993489015
+- Peru: 5193489015
+- Mexico: 5293489015
+- Cuba: 5393489015
+- Argentina: 5493489015
+- Brazil: 5593489015
+- Chile: 5693489015
+- Colombia: 5793489015
+- Venezuela: 5893489015
+- Guadeloupe: 59093489015
+- Bolivia: 59193489015
+- Guyana: 59293489015
+- Ecuador: 59393489015
+- French Guiana: 59493489015
+- Paraguay: 59593489015
+- Martinique: 59693489015
+- Suriname: 59793489015
+- Uruguay: 59893489015
+- Sint Eustatius: Netherlands Antilles: 599-393489015
+- Saba: Netherlands Antilles: 599-493489015
+- Bonaire: Netherlands Antilles: 599-793489015
+- Curaçao: Netherlands Antilles: 599-993489015
+- Malaysia: 6093489015
+- Indonesia: 6293489015
+- Philippines: 6393489015
+- New Zealand: 6493489015
+- Singapore: 6593489015
+- Thailand: 6693489015
+- East Timor: 67093489015
+- Brunei: 67393489015
+- Nauru: 67493489015
+- Papua New Guinea: 67593489015
+- Tonga: 67693489015
+- Solomon Islands: 67793489015
+- Vanuatu: 67893489015
+- Fiji: 67993489015
+- Palau: 68093489015
+- Wallis and Futuna: 68193489015
+- Cook Islands: 68293489015
+- Niue: 68393489015
+- Samoa: 68593489015
+- Kiribati: 68693489015
+- New Caledonia: 68793489015
+- Tuvalu: 68893489015
+- French Polynesia: 68993489015
+- Tokelau: 69093489015
+- Federated States of Micronesia: 69193489015
+- Marshall Islands: 69293489015
+- Japan: 8193489015
+- South Korea: 8293489015
+- Vietnam: 8493489015
+- North Korea: 85093489015
+- Hong Kong: 85293489015
+- Macau: 85393489015
+- Cambodia: 85593489015
+- Laos: 85693489015
+- China: 8693489015
+- Bangladesh: 88093489015
+- Taiwan: 88693489015
+- Afghanistan: 9393489015
+- Sri Lanka: 9493489015
+- Myanmar: 9593489015
+- Maldives: 96093489015
+- Lebanon: 96193489015
+- Jordan: 96293489015
+- Syria: 96393489015
+- Iraq: 96493489015
+- Kuwait: 96593489015
+- Saudi Arabia: 96693489015
+- Yemen: 96793489015
+- Oman: 96893489015
+- Palestine: 97093489015
+- United Arab Emirates: 97193489015
+- Israel: 97293489015
+- Bahrain: 97393489015
+- Qatar: 97493489015
+- Bhutan: 97593489015
+- Mongolia: 97693489015
+- Nepal: 97793489015
+- Iran: 9893489015
+- Tajikistan: 99293489015
+- Turkmenistan: 99393489015
+- Azerbaijan: 99493489015
+- State of Georgia: 99593489015
+- Kyrgyzstan: 99693489015
+- Uzbekistan: 99893489015
+- Zanzibar: Tanzania: 255-2493489015
+- Mayotte: Réunion: 262-26993489015
+- Mayotte: Réunion: 262-63993489015
+- Tristan da Cunha: Saint Helena: 290-893489015
+- Åland: Finland: 358-1893489015
+- San Marino: Italy: 39-054993489015
+- Vatican City: Italy: 39-0669893489015
+- Transnistria: Moldova: 373-293489015
+- Transnistria: Moldova: 373-593489015
+- Campione d'Italia: Switzerland: 41-9193489015
+- Guernsey: United Kingdom: 44-148193489015
+- Jersey: United Kingdom: 44-153493489015
+- Isle of Man: United Kingdom: 44-162493489015
+- Svalbard: Norway: 47-7993489015
+- Cocos Islands: Australia: 61-8916293489015
+- Christmas Island: Australia: 61-8916493489015
+- Australian Antarctic Territory: Australian External Territories: 672-193489015
+- Norfolk Island: Australian External Territories: 672-393489015
+- Russia: 7193489015
+- Russia: 7293489015
+- Russia: 7393489015
+- Russia: 7493489015
+- Russia: 7593489015
+- Russia: 7893489015
+- Russia: 7993489015
+- Kazakhstan: 7093489015
+- Kazakhstan: 7693489015
+- Kazakhstan: 7793489015
+- Nothern Cyprus: Turkey: 90-39293489015
+- Jammu: India: 91-19193489015
+- Kashmir: India: 91-19493489015
+- Gilgit Baltistan: Pakistan: 92-58193489015
+- Azad Kashmir: Pakistan: 92-58293489015
+- Unassigned: 210385824
+- Unassigned: (217)356832
+- Unassigned: 803
+- With plus
+- Canada: United States: +1-78093489015
+- Canada: United States: +1-82593489015
+- Canada: United States: +1-58793489015
+- Canada: United States: +1-40393489015
+- Canada: United States: +1-25093489015
+- Canada: United States: +1-60493489015
+- Canada: United States: +1-23693489015
+- Canada: United States: +1-67293489015
+- Canada: United States: +1-77893489015
+- Canada: United States: +1-43193489015
+- Canada: United States: +1-20493489015
+- Canada: United States: +1-50693489015
+- Canada: United States: +1-42893489015
+- Canada: United States: +1-70993489015
+- Canada: United States: +1-86793489015
+- Canada: United States: +1-90293489015
+- Canada: United States: +1-78293489015
+- Canada: United States: +1-86793489015
+- Canada: United States: +1-80793489015
+- Canada: United States: 1-90593489015
+- Canada: United States: 1-70593489015
+- Canada: United States: 1-64793489015
+- Canada: United States: 1-61393489015
+- Canada: United States: 1-54893489015
+- Canada: United States: 1-51993489015
+- Canada: United States: 1-43793489015
+- Canada: United States: 1-41693489015
+- Canada: United States: 1-36593489015
+- Canada: United States: 1-34393489015
+- Canada: United States: 1-28993489015
+- Canada: United States: 1-24993489015
+- Canada: United States: 1-22693489015
+- Canada: United States: 1-78293489015
+- Canada: United States: 1-90293489015
+- Canada: United States: 1-43893489015
+- Canada: United States: 1-45093489015
+- Canada: United States: 1-51493489015
+- Canada: United States: 1-41893489015
+- Canada: United States: 1-36793489015
+- Canada: United States: 1-81993489015
+- Canada: United States: 1-35493489015
+- Canada: United States: 1-57993489015
+- Canada: United States: 1-87393489015
+- Canada: United States: 1-58193489015
+- Canada: United States: 1-30693489015
+- Canada: United States: 1-63993489015
+- Canada: United States: 1-86793489015
+- Egypt: +2093489015
+- South Sudan: +21193489015
+- Morocco: +21293489015
+- Algeria: +21393489015
+- Tunisia: +21693489015
+- Libya: +21893489015
+- Gambia: +22093489015
+- Senegal: +22193489015
+- Mauritania: +22293489015
+- Mali: 22393489015
+- Guinea: 22493489015
+- Ivory Coast: 22593489015
+- Burkina Faso: 22693489015
+- Niger: 22793489015
+- Togo: 22893489015
+- Benin: 22993489015
+- Mauritius: 23093489015
+- Liberia: 23193489015
+- Sierra Leone: 23293489015
+- Ghana: 23393489015
+- Nigeria: 23493489015
+- Chad: 23593489015
+- Central African Republic: 23693489015
+- Cameroon: 23793489015
+- Cape Verde: 23893489015
+- São Tomé and Príncipe: 23993489015
+- Equatorial Guinea: 24093489015
+- Gabon: 24193489015
+- Republic of the Congo: 24293489015
+- Democratic Republic of the Congo: 24393489015
+- Angola: 24493489015
+- Guinea-Bissau: 24593489015
+- British Indian Ocean Territory: 24693489015
+- Ascension Island: 24793489015
+- Seychelles: 24893489015
+- Sudan: 24993489015
+- Rwanda: 25093489015
+- Ethiopia: 25193489015
+- Somalia: 25293489015
+- Djibouti: 25393489015
+- Kenya: 25493489015
+- Uganda: 25693489015
+- Burundi: 25793489015
+- Mozambique: 25893489015
+- Zambia: 26093489015
+- Madagascar: 26193489015
+- Zimbabwe: 26393489015
+- Namibia: 26493489015
+- Malawi: 26593489015
+- Lesotho: 26693489015
+- Botswana: 26793489015
+- Eswatini: 26893489015
+- Comoros: 26993489015
+- South Africa: 2793489015
+- Eritrea: 29193489015
+- Aruba: 29793489015
+- Faroe Islands: 29893489015
+- Greenland: 29993489015
+- Greece: 3093489015
+- Netherlands: 3193489015
+- Belgium: 3293489015
+- France: 3393489015
+- Spain: 3493489015
+- Gibraltar: 35093489015
+- Portugal: 35193489015
+- Luxembourg: 35293489015
+- Ireland: 35393489015
+- Iceland: 35493489015
+- Albania: 35593489015
+- Malta: 35693489015
+- Cyprus: 35793489015
+- Bulgaria: 35993489015
+- Hungary: 3693489015
+- Lithuania: 37093489015
+- Latvia: 37193489015
+- Estonia: 37293489015
+- Armenia: 37493489015
+- Belarus: 37593489015
+- Andorra: 37693489015
+- Monaco: 37793489015
+- San Marino: 37893489015
+- Vatican City: 37993489015
+- Ukraine: 38093489015
+- Serbia: 38193489015
+- Montenegro: 38293489015
+- Kosovo: 38393489015
+- Croatia: 38593489015
+- Slovenia: 38693489015
+- Bosnia and Herzegovina: 38793489015
+- North Macedonia: 38993489015
+- Romania: 4093489015
+- Czech Republic: 42093489015
+- Slovakia: 42193489015
+- Liechtenstein: 42393489015
+- Austria: 4393489015
+- Denmark: 4593489015
+- Sweden: 4693489015
+- Poland: 4893489015
+- Germany: 4993489015
+- Falkland Islands: 50093489015
+- Belize: 50193489015
+- Guatemala: 50293489015
+- El Salvador: 50393489015
+- Honduras: 50493489015
+- Nicaragua: 50593489015
+- Costa Rica: 50693489015
+- Panama: 50793489015
+- Saint-Pierre and Miquelon: 50893489015
+- Haiti: 50993489015
+- Peru: 5193489015
+- Mexico: 5293489015
+- Cuba: 5393489015
+- Argentina: 5493489015
+- Brazil: 5593489015
+- Chile: 5693489015
+- Colombia: 5793489015
+- Venezuela: 5893489015
+- Guadeloupe: 59093489015
+- Bolivia: 59193489015
+- Guyana: 59293489015
+- Ecuador: 59393489015
+- French Guiana: 59493489015
+- Paraguay: 59593489015
+- Martinique: 59693489015
+- Suriname: 59793489015
+- Uruguay: 59893489015
+- Sint Eustatius: Netherlands Antilles: 599-393489015
+- Saba: Netherlands Antilles: 599-493489015
+- Bonaire: Netherlands Antilles: 599-793489015
+- Curaçao: Netherlands Antilles: 599-993489015
+- Malaysia: 6093489015
+- Indonesia: 6293489015
+- Philippines: 6393489015
+- New Zealand: 6493489015
+- Singapore: 6593489015
+- Thailand: 6693489015
+- East Timor: 67093489015
+- Brunei: 67393489015
+- Nauru: 67493489015
+- Papua New Guinea: 67593489015
+- Tonga: 67693489015
+- Solomon Islands: 67793489015
+- Vanuatu: 67893489015
+- Fiji: 67993489015
+- Palau: 68093489015
+- Wallis and Futuna: 68193489015
+- Cook Islands: 68293489015
+- Niue: 68393489015
+- Samoa: 68593489015
+- Kiribati: 68693489015
+- New Caledonia: 68793489015
+- Tuvalu: 68893489015
+- French Polynesia: 68993489015
+- Tokelau: 69093489015
+- Federated States of Micronesia: 69193489015
+- Marshall Islands: 69293489015
+- Japan: 8193489015
+- South Korea: 8293489015
+- Vietnam: 8493489015
+- North Korea: 85093489015
+- Hong Kong: 85293489015
+- Macau: 85393489015
+- Cambodia: 85593489015
+- Laos: 85693489015
+- China: 8693489015
+- Bangladesh: 88093489015
+- Taiwan: 88693489015
+- Afghanistan: 9393489015
+- Sri Lanka: 9493489015
+- Myanmar: 9593489015
+- Maldives: 96093489015
+- Lebanon: 96193489015
+- Jordan: 96293489015
+- Syria: 96393489015
+- Iraq: 96493489015
+- Kuwait: 96593489015
+- Saudi Arabia: 96693489015
+- Yemen: 96793489015
+- Oman: 96893489015
+- Palestine: 97093489015
+- United Arab Emirates: 97193489015
+- Israel: 97293489015
+- Bahrain: 97393489015
+- Qatar: 97493489015
+- Bhutan: 97593489015
+- Mongolia: 97693489015
+- Nepal: 97793489015
+- Iran: 9893489015
+- Tajikistan: 99293489015
+- Turkmenistan: 99393489015
+- Azerbaijan: 99493489015
+- State of Georgia: 99593489015
+- Kyrgyzstan: 99693489015
+- Uzbekistan: 99893489015
+- Zanzibar: Tanzania: 255-2493489015
+- Mayotte: Réunion: 262-26993489015
+- Mayotte: Réunion: 262-63993489015
+- Tristan da Cunha: Saint Helena: 290-893489015
+- Åland: Finland: 358-1893489015
+- San Marino: Italy: 39-054993489015
+- Vatican City: Italy: 39-0669893489015
+- Transnistria: Moldova: 373-293489015
+- Transnistria: Moldova: 373-593489015
+- Campione d'Italia: Switzerland: 41-9193489015
+- Guernsey: United Kingdom: 44-148193489015
+- Jersey: United Kingdom: 44-153493489015
+- Isle of Man: United Kingdom: 44-162493489015
+- Svalbard: Norway: 47-7993489015
+- Cocos Islands: Australia: 61-8916293489015
+- Christmas Island: Australia: 61-8916493489015
+- Australian Antarctic Territory: Australian External Territories: 672-193489015
+- Norfolk Island: Australian External Territories: 672-393489015
+- Abkhazia: 7840123582
+- Abkhazia: 7940123582
+- South Ossetia: 7850348149
+- South Ossetia: 7929348149
+- Russia: 7193489015
+- Russia: 7293489015
+- Russia: 7393489015
+- Russia: 7493489015
+- Russia: 7593489015
+- Russia: 7893489015
+- Russia: 7993489015
+- Kazakhstan: 7093489015
+- Kazakhstan: 7693489015
+- Kazakhstan: 7793489015
+- Nothern Cyprus: Turkey: 90-39293489015
+- Jammu: India: 91-19193489015
+- Kashmir: India: 91-19493489015
+- Gilgit Baltistan: Pakistan: 92-58193489015
+- Azad Kashmir: Pakistan: 92-58293489015
